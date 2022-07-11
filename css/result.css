@@ -5,16 +5,12 @@
     border-radius: 20px;
 }
 
-h1{
-    font-size: 2.7em ;
-}
-
 .resultName{
-    font-size: 2em;
+    font-size: 2.7em;
 }
 
 .resultDesc{
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 /* .kakao {

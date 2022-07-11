@@ -1,7 +1,7 @@
 const main = document.querySelector('#main');
 const qna = document.querySelector('#qna');
 const result = document.querySelector("#result");
-const endPoint = 12; //질문 갯수
+const endPoint = 8; //질문 갯수
 const select = [0,0,0,0,0,0,0,0,0,0,0,0]; //사용자의 버튼 선택에 따른 내용이 담길 배열
 
 //다시하기
