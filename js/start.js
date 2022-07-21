@@ -6,18 +6,11 @@ const select = [0,0,0,0,0,0,0,0,0,0,0,0]; //사용자의 버튼 선택에 따른
 
 //다시하기
 function reBegin(){
-    result.style.WebkitAnimation = "fadeOut 1s";
-    result.style.animation = "fadeOut 1s";
-    setTimeout(() => {
-        main.style.WebkitAnimation = "fadeIn 1s";
-        main.style.animation = "fadeIn 1s";
-        setTimeout(() => {
-            result.style.display = "none";
-            main.style.display = "block";
-        }, 450)
-        let qID = 0;
-        goNext(qID);
-    }, 450);
+    // result.style.display = "none";
+    // main.style.display = "block";
+    location.reload(true);//새로고침
+    let qID = 0;
+    goNext(qID);
 }
 
 //닮은 동물 보여주기

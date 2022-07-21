@@ -1,39 +1,52 @@
-#qna{
-    display: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Do Hyeon", sans-serif;
 }
 
-.qBox{
-    background-color: #FFEECB;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 200%;
-    width: 80%;
-
+body {
+  background-color: tan;
+}
+body .footer {
+  text-align: center;
+}
+body .footer p {
+  font-size: 1em;
 }
 
-.answerList{
-    background-color: whitesmoke;
-    border-radius: 20px;
-    width: 80%;
-    border: 0px;
-    font-size: 150%;
-    display: block;
+#qna {
+  display: none;
+}
+#qna .qBox {
+  border-radius: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 200%;
+  width: 80%;
+}
+#qna .answerList {
+  border-radius: 20px;
+  background-color: whitesmoke;
+  width: 80%;
+  border: 0px;
+  font-size: 150%;
+  display: block;
+}
+#qna .answerList:hover, #qna .answerList:focus {
+  background-color: tan;
+  color: whitesmoke;
+}
+#qna .status {
+  border-radius: 20px;
+  height: 30px;
+  width: 80%;
+  background-color: whitesmoke;
+}
+#qna .status .statusBar {
+  border-radius: 20px;
+  height: 100%;
+  background-color: rgb(178, 121, 70);
 }
 
-.answerList:hover, .answerList:focus{
-    background-color: tan;
-    color: whitesmoke
-}
-
-.status{
-    height: 30px;
-    width: 80%;
-    background-color: whitesmoke;
-    border-radius: 20px;
-}
-
-.status .statusBar{
-    height: 100%;
-    background-color: rgb(178, 121, 70);
-    border-radius: 20px;
-}
+/*# sourceMappingURL=qna.css.map */

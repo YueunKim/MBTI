@@ -1,14 +1,18 @@
-:root {
-    --text-color: #0c0f0fef;
-} 
-
 * {
-    padding: 0; 
-    margin: 0; 
-    box-sizing: border-box; 
-    font-family: 'Do Hyeon', sans-serif;
-} 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Do Hyeon", sans-serif;
+}
 
 body {
-    background-color: tan;
+  background-color: tan;
 }
+body .footer {
+  text-align: center;
+}
+body .footer p {
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=default.css.map */

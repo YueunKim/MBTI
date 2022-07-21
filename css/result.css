@@ -1,17 +1,33 @@
-#result{
-    display: none;
-    background-color: whitesmoke;
-    text-align: center;
-    border-radius: 20px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Do Hyeon", sans-serif;
 }
 
-.resultName{
-    font-size: 2.7em;
+body {
+  background-color: tan;
+}
+body .footer {
+  text-align: center;
+}
+body .footer p {
+  font-size: 1em;
 }
 
-.resultDesc{
-    font-size: 2em;
+#result {
+  border-radius: 20px;
+  display: none;
+  background-color: whitesmoke;
+  text-align: center;
+  /* .kakao {
+  } */
+}
+#result .resultName {
+  font-size: 2.7em;
+}
+#result .resultDesc {
+  font-size: 2em;
 }
 
-/* .kakao {
-} */
+/*# sourceMappingURL=result.css.map */

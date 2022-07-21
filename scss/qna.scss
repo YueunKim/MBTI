@@ -1,0 +1,41 @@
+@import './default.scss';
+
+#qna{
+    display: none;
+
+    .qBox{
+        @include border-radius;
+        background-color: $white;
+        text-align: center;
+        font-size: 200%;
+        width: 80%;
+    
+    }
+    
+    .answerList{
+        @include border-radius;
+        background-color: $white;
+        width: 80%;
+        border: 0px;
+        font-size: 150%;
+        display: block;
+
+        &:hover, &:focus{
+            background-color: $tan;
+            color: $white;
+        }
+    }
+    
+    .status{
+        @include border-radius;
+        height: 30px;
+        width: 80%;
+        background-color: $white;
+
+        .statusBar{
+            @include border-radius;
+            height: 100%;
+            background-color: $dark-tan;
+        }
+    }
+}

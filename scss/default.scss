@@ -1,0 +1,28 @@
+$text-color: #0c0f0fef;
+$white: whitesmoke;
+$tan: tan;
+$dark-tan: rgb(178, 121, 70);
+
+@mixin border-radius {
+    border-radius: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Do Hyeon', sans-serif;
+} 
+
+body {
+    background-color: $tan;
+
+    .footer{
+        text-align: center;    
+        
+        p{
+            font-size: 1em;
+        }
+    }
+}
+

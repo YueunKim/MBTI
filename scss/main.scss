@@ -1,0 +1,15 @@
+@import './default.scss';
+
+#main{
+    background-color: $white;
+    text-align: center;
+    border-radius: 20px;
+
+    h1{
+        font-size: 3em;
+    }
+    
+    p{
+        font-size: 1.7em;
+    } 
+}
